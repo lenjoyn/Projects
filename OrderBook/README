@@ -1,0 +1,18 @@
+# The instruction to run the OrderCheck
+
+This is the readme about what are here and how to operate them
+
+## make and execution
+
+This execution should be built with:
+
+```
+make
+./OrderCheck yourfile.txt
+```
+
+## the content of OrderCheck
+
+It has a major class, OrderBook, and it opens the file and execute the order insertion as well as removal, when it is constructed.
+
+After finishing running the OrderBook construction, it would return the time-weighted average of highest prices
